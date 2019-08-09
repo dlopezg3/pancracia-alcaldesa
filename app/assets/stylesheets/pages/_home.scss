@@ -57,6 +57,9 @@ body {
     margin: 16px 0;
   }
 }
+.text-content {
+  padding: 32px;
+}
 @media (min-width: 1024px) {
   .cover-container {
     background-position: inherit;
@@ -94,7 +97,6 @@ body {
     height: 51vw;
   }
   .text-content {
-    padding: 24px;
     text-align: center;
   }
   .title {
