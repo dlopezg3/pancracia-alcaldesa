@@ -29,6 +29,7 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'jquery-rails'
+gem 'pg'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
