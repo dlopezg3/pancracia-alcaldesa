@@ -32,7 +32,7 @@ body {
   letter-spacing: -0.15rem;
   font-weight: 700;
   margin-top: 12px;
-  color: $green;
+  color: $amg-green;
 }
 .lema {
   font-size: 20px;
@@ -53,13 +53,31 @@ body {
   width: 60px;
   padding-left: 4px;
   hr {
-    border-top: 6px solid $green;
+    border-top: 6px solid $amg-green;
     margin: 16px 0;
   }
 }
 .text-content {
-  padding: 32px;
+  padding: 32px 32px 48px 32px;
 }
+#mc_embed_signup {
+  font:14px;
+  color: $amg-gray;
+  form {
+    font-family: Arial, sans-serif;
+    padding: 10px 0 !important;
+  }
+  ::placeholder {
+    font-family: Arial, sans-serif;
+  }
+  .button{
+    margin-top:8px !important;
+  }
+}
+#mc-embedded-subscribe {
+  background-color: $amg-blue !important;
+}
+
 @media (min-width: 1024px) {
   .cover-container {
     background-position: inherit;
@@ -86,6 +104,11 @@ body {
     // width: 368px;
     height: 268px;
   }
+  #mc_embed_signup {
+    input.email {
+      width: 35% !important;
+    }
+  }
 }
 @media (max-width: 1025px) {
   .leftside {
@@ -104,6 +127,11 @@ body {
   }
   .subtitle {
     font-size: 18vw
+  }
+  #mc_embed_signup {
+    input.email {
+      width: 90% !important;
+    }
   }
 }
 @media (min-width: 700px) and (max-width: 1024px) {
