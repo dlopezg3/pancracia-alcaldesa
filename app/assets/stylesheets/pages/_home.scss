@@ -63,6 +63,18 @@ body {
 .propuestas-list {
   padding-left: 22px;
 }
+.map-contaiener {
+  height: 50vh;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dlopez10g/image/upload/v1565807620/MAPA_AMG-02.png');
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+}
+.address-info {
+  text-align: left;
+}
 #mc_embed_signup {
   font:14px;
   color: $amg-gray;
@@ -129,6 +141,9 @@ body {
   }
   .subtitle {
     font-size: 18vw
+  }
+  .btn-amg {
+    font-size: 32px;
   }
   #mc_embed_signup {
     input.email {
